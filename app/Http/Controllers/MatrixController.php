@@ -16,6 +16,8 @@ class MatrixController extends Controller
             'matrix2' => 'required|array',
         ]);
 
+        // note: more backend validation should be done here in a real world app (matrix values, validity etc.)
+
         $product = $service->multiply(
             $request->matrix1,
             $request->matrix2
