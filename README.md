@@ -3,6 +3,8 @@
 A simple backend application that allows to multiply two matrices. The frontend is a simple Vue.js application with basic CSS.
 The resulting matrix will output alphabetical representations of the results, similar to Excel file headers (1=A, 26=Z, 27=AA).
 
+The demo application can be viewed at https://matrix.fmdsc.net
+
 ## Features
 
 - PHP 7.4
