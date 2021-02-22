@@ -9,6 +9,14 @@ use App\Services\MatrixService;
 
 class MatrixController extends Controller
 {
+    /**
+     * Multiply two matrices and return an alphabetic response matrix.
+     *
+     * @param \Illuminate\Http\Request  $request
+     * @param \App\Services\MatrixService  $service
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function multiply(Request $request, MatrixService $service)
     {
         $validated = $request->validate([
