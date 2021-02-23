@@ -22,7 +22,7 @@
             tr td { text-align: center; }
             td a:hover, button:hover { background: var(--color-blue-hover); }
             button[type="reset"]:hover { background: var(--color-grey-hover); }
-            button:disabled { opacity: 0.3; cursor: not-allowed; }
+            button:disabled, input[readonly] { opacity: 0.3; cursor: not-allowed; }
             .error { border: 2px solid var(--color-red); color: var(--color-red); padding: 10px; margin-bottom: 20px; max-width: 500px; }
             .section--result { margin-top: 20px; }
             .section--result td { padding: 10px; background: #eee; }
